@@ -2,7 +2,6 @@ import React from 'react'
 import Styled from 'styled-components'
 import Photo1 from './iii.jpg'
 import Photo2 from './iii2.jpg'
-import Photo3 from './iii3.jpg'
 import Photo4 from './iii4.jpg'
 import Photo5 from './iii5.jpg'
 
@@ -48,11 +47,10 @@ const AdminPanel = ({OnRouteChange})  => {
                     value="Results"/>
                 </article>
                 <article className="article mw5 ml4 tc bg-transparent dib br3 ma2 bw2 shadow-5">
-                <img src={Photo3} alt='Vice Principle'/>
+                <img alt='Vice Principle'/>
                 <hr class="mw3 bb bw1 b--black-10"></hr>
                     <h2> Students </h2>
                     <input
-                    onClick = { () => OnRouteChange('home')}
                     className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
                     type="submit"
                     value="Students"/>
